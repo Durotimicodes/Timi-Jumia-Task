@@ -1,0 +1,91 @@
+**::before,
+**::after {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+#container {
+  width: 70vw;
+  height: 98vh;
+  margin: auto;
+}
+
+.child-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 85%;
+  border: 1px solid #000;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+  height: 10%;
+  color: #000;
+}
+
+.image {
+  width: 12%;
+}
+.jumia-header-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.table-container {
+  background-color: #fff;
+  width: 88%;
+  height: 100%;
+}
+
+.select-filters {
+  height: 2rem;
+}
+.phone-num-table {
+  margin-top: 3rem;
+  height: 23rem;
+}
+.pagnination {
+  height: 2rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.filter-country,
+.check-valid-num {
+  width: 10rem;
+  height: 1.7rem;
+  margin-left: 0px;
+}
+
+.check-valid-num {
+  margin-left: 5rem;
+}
+footer {
+  background-color: #fff;
+  height: 5%;
+  margin-bottom: auto;
+  text-align: center;
+}
